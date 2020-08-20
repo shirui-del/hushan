@@ -1,7 +1,3 @@
-#build
-/serve/admin/
-/serve/web/
-
 # Logs
 logs
 *.log
