@@ -44,6 +44,8 @@
 				<div class="magictime twisterInUp">时间观念：做事有计划，工作分主次，ES，“艾森豪威尔法则”（四象限法则）</div>
 				<div class="magictime twisterInUp">保持敬畏：“君子之心，常怀敬畏”</div>
 				<div class="magictime twisterInUp">软件架构的目标，是为了让构建与维护系统的所需人力资源最小化````</div>
+
+				<div class="magictime twisterInUp">石蕊石蕊```石蕊`石蕊`石蕊`石蕊`石蕊`石蕊`石蕊`石蕊``</div>
 			</div>
 		</div>
   </div>

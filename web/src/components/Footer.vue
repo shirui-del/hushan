@@ -24,9 +24,9 @@
         </div>
       </div>
     </div> -->
-    <div class="footer pt-3 bg-navcolor">
-      <div class="pt-5 d-flex jc-center ">
-        <div class="px-8 mb-4 d-flex d-center">
+    <div class="foote bg-navcolor">
+      <div class=" d-flex jc-center ">
+        <div class="d-flex d-center">
           <router-link class="hand" tag="div" to="/">
             <img src="http://liurxmgoss.oss-cn-beijing.aliyuncs.com/159782569378336 (1).png" height="32" />
           </router-link>
@@ -86,10 +86,10 @@ export default {
     };
   },
   created() {
-    this.getTime();
+    // this.getTime();
   },
   beforeDestroy() {
-    clearInterval(this.intTime);
+    // clearInterval(this.intTime);
   },
   methods: {
     async fetchArticles() {
@@ -132,7 +132,7 @@ export default {
     }
   },
   mounted() {
-    this.fetchArticles();
+    // this.fetchArticles();
   }
 };
 </script>
@@ -146,6 +146,9 @@ export default {
     align-items: center;
     div {
       padding-left: 20px;
+      p {
+        margin: 4px auto;
+      }
     }
   }
 }

@@ -10,23 +10,8 @@
       </div>
     </div>
     <!-- 内容 -->
-    <div class="post-container">
-      <div v-for="(article, i) in articles" :key="i">
-        <div class="show a-cont d-flex flex-justify align-center home-art" @click="goToSelectPage(article._id)">
-          <div class="main-img" v-if="article.icon">
-            <img :src="article.icon" alt="">
-          </div>
-          <div class="index-info d-flex flex-column">
-            <p>{{ article.title }}</p>
-            <div v-html="article.body"></div>
-            <p class="d-flex space-p">
-              <span class="iconfont icon-riqi2">{{ article.createdAt | date("YYYY-MM-DD") }}</span>
-              <span class="iconfont icon-tag1">{{ article.categories[0].name }}</span>
-              <i class="iconfont icon-love text-red hand"></i>
-            </p>
-          </div>
-        </div>
-      </div>
+    <div class="post-container" v-if="articles">
+      <card :articles="articles"/>
     </div>
     <!-- 分页 -->
     <div class="my-10" v-if="articles.length > 0">
@@ -74,6 +59,7 @@
 <script>
 import $ from "jquery";
 import bulletChat from '../components/bulletChat'
+import card from '../components/card'
 export default {
   data() {
     return {
@@ -125,39 +111,13 @@ export default {
     this.fetchData();
   },
   components: {
-    bulletChat
+    bulletChat,
+    card
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.bgImg {
-  // background-image: url(http://liurxmgoss.oss-cn-beijing.aliyuncs.com/earth2.png);
-  // width: 100%;
-  // height: 100vh;
-  // background-position: center;
-  // background-size: cover;
-  position: relative;
-  // overflow: hidden;
-  // .shouye-text {
-  //   font-size: 32px;
-  //   font-family: "Roboto", sans-serif;
-  //   width: 13em;
-  //   white-space: nowrap;
-  //   animation: typing 2.5s steps(13, end), infinite;
-  //   overflow: hidden;
-  //   position: absolute;
-  //   top: 50%;
-  // }
-  // .line-down {
-  //   font-size: 32px;
-  //   font-family: "Roboto", sans-serif;
-  //   animation: shine 0.5s linear infinite alternate;
-  //   position: absolute;
-  //   top: 50%;
-  // }
-  
-}
 .arrow-down {
   position: absolute;
   right: 50%;
@@ -202,56 +162,6 @@ export default {
   100% {
     visibility: visible;
     opacity: 1;
-  }
-}
-
-.post-container {
-  position: relative;
-  border-radius: 10px;
-  max-width: 1024px;
-  margin: 0 auto;
-  .a-cont {
-    z-index: 999;
-    width: 80%;
-    height: 200px;
-    margin: 25px auto;
-    border-radius: 8px;
-    background-color: #f5f7f9;
-    .main-img {
-      padding-left: 8px;
-      img {
-        width: 200px;
-        height: 180px;
-      }
-    }
-    .index-info {
-      // justify-content: space-between;
-      padding-left: 18px;
-      margin-right: 9px;
-      p:first-of-type {
-        font-size: 28px;
-        font-weight: 700;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        margin-top: 0.5rem;
-        margin-bottom: 0;
-        padding-bottom: 9px;
-      }
-      div {
-        word-break: break-word;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 3;
-        overflow: hidden;
-      }
-      .space-p {
-        justify-content:flex-start;
-        span {
-          padding-right: 15px;
-        }
-      }
-    }
   }
 }
 @media screen and (max-width: 768px) {

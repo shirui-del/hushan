@@ -1,3 +1,7 @@
+#build
+/server/admin/
+/server/web/
+
 # Logs
 logs
 *.log

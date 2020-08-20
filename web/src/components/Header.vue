@@ -62,9 +62,6 @@
             <router-link tag="div" to="/tags">标签</router-link>
           </el-dropdown-item>
           <el-dropdown-item divided>
-            <router-link tag="div" to="/links">友链</router-link>
-          </el-dropdown-item>
-          <el-dropdown-item divided>
             <router-link tag="div" to="/message">留言</router-link>
           </el-dropdown-item>
           <el-dropdown-item divided>
@@ -157,7 +154,7 @@ export default {
 
 .mini {
   background-color: map-get($colors, "navcolor");
-  height: 56px;
+  height: 46px;
   transition: 0.5s ease-in-out;
 }
 .show-list {
@@ -191,7 +188,11 @@ export default {
 .el-dropdown-link {
   cursor: pointer;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
+  .main-img {
+    width: 45vw;
+    height: 83%;
+  }
   .nav-item {
     display: none;
   }
