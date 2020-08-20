@@ -1,6 +1,6 @@
 #build
-/server/admin/
-/server/web/
+/serve/admin/
+/serve/web/
 
 # Logs
 logs

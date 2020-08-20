@@ -7,7 +7,7 @@ const productionGzipExtensions = ["js", "css"];
 // const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 module.exports = {
   lintOnSave: false,
-  outputDir: __dirname + "/../server/web",
+  outputDir: __dirname + "/../serve/web",
   // publicPath: process.env.NODE_ENV === 'production' ? '/web' : '/'
   productionSourceMap: false,
   chainWebpack: (config) => {
