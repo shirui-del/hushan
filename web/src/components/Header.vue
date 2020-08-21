@@ -3,7 +3,7 @@
     <div class="hand">
       <router-link tag="div" to="/">
         <img
-          src="http://liurxmgoss.oss-cn-beijing.aliyuncs.com/159782569378336 (1).png"
+          src="http://liurxmgoss.oss-cn-beijing.aliyuncs.com/logo.png"
           height="42"
           class="main-img"
         />
@@ -62,7 +62,7 @@
             <router-link tag="div" to="/tags">标签</router-link>
           </el-dropdown-item>
           <el-dropdown-item divided>
-            <router-link tag="div" to="/message">留言</router-link>
+            <router-link tag="div" to="/message">弹幕</router-link>
           </el-dropdown-item>
           <el-dropdown-item divided>
             <router-link tag="div" to="/about">关于</router-link>

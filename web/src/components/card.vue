@@ -27,6 +27,11 @@ export default {
       currentDate: new Date()
     };
   },
+  methods: {
+    goToSelectPage(id) {
+      this.$router.push(`/article/list/${id}`)
+    }
+  },
   props: {
       articles: {
           type: Array
@@ -94,6 +99,7 @@ export default {
   .a-cont {
       height: 150px !important;
       margin: 15px auto  !important;
+      width: 90% !important;
     .index-info {
         width: 95% !important;
         p:first-of-type {

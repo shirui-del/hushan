@@ -12,7 +12,7 @@
       <div class="pl-5 text-green-1">
         <p>• 前端程序员一枚，目前📍：北京</p>
         <p>• 未来希望成为一名优秀的前端程序🐵</p>
-        <p>• 业余爱好比较多，喜欢烹饪、烘焙、游戏、踢⚽等等</p>
+        <p>• 业余爱好比较多，喜欢烹饪、游戏、打篮球等等</p>
       </div>
       <div class="py-4">
         <span class="fs-xxl text-green">#</span>
@@ -37,7 +37,7 @@
             href="https://github.com/CleverLiurx/"
             target="_blank"
             class="text-green-1 bd-bottom-about"
-          >• myBlog(本博客)</a>
+          >• Blog(本博客)</a>
           - 基于NodeJs、Vue、MongoDB实现的一款伪全栈博客系统🔥
         </p>
         <p>
@@ -45,33 +45,33 @@
             href="https://github.com/CleverLiurx/"
             target="_blank"
             class="text-green-1 bd-bottom-about"
-          >• 蘑菇记账</a>
-          - 基于Vue全家桶、TypeScript、Echarts实现的一款极简的本地记账应用🤑
+          >• ele-app(饿了么)</a>
+          - 基于Vue全家桶、Node、等实现的一款功能最全、页面最漂亮的H5版饿了么🤑
         </p>
-        <p>
+        <!-- <p>
           <a
             href="https://github.com/CleverLiurx/"
             target="_blank"
             class="text-green-1 bd-bottom-about"
           >• 蘑菇记账(小程序版)</a>
           - 原生小程序实现的一款蘑菇记账应用💰
-        </p>
-        <p>
+        </p> -->
+        <!-- <p>
           <a
             href="https://github.com/CleverLiurx/"
             target="_blank"
             class="text-green-1 bd-bottom-about"
           >• TODOS(小程序版)</a>
           - 原生小程序实现的一款TODO应用工具📅
-        </p>
-        <p>
+        </p> -->
+        <!-- <p>
           <a
             href="https://github.com/CleverLiurx/"
             target="_blank"
             class="text-green-1 bd-bottom-about"
           >• cv</a>
           - 原生js实现的刘容新个人简历📄
-        </p>
+        </p> -->
         <p>
           <a
             href="https://github.com/CleverLiurx/"

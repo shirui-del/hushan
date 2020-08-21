@@ -330,7 +330,7 @@ export default {
 .bullet-chat {
 	margin:0;
 	overflow:hidden;
-	background-image: url(http://liurxmgoss.oss-cn-beijing.aliyuncs.com/earth2.png);
+	background-image: url(http://liurxmgoss.oss-cn-beijing.aliyuncs.com/bg.png);
 	width: 100%;
  	height: 100vh;
 	position: relative;

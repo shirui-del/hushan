@@ -121,6 +121,7 @@ export default {
 .arrow-down {
   position: absolute;
   right: 50%;
+  margin-right: -24px;
   bottom: 30px;
   color: #fff;
   animation: arrowDown 0.8s linear infinite alternate;

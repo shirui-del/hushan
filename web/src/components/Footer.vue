@@ -28,7 +28,7 @@
       <div class=" d-flex jc-center ">
         <div class="d-flex d-center">
           <router-link class="hand" tag="div" to="/">
-            <img src="http://liurxmgoss.oss-cn-beijing.aliyuncs.com/159782569378336 (1).png" height="32" />
+            <img src="http://liurxmgoss.oss-cn-beijing.aliyuncs.com/logo.png" height="32" />
           </router-link>
           <div class="text-grey-2 fs-sm">
             <p>

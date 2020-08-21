@@ -30,7 +30,7 @@
       <div class="d-none left">
         <div class="blogs-menu toc-sticky text-grey-1 pl-9">
           <div>
-            <!-- <h2>目录</h2> -->
+            <h2>目录</h2>
             <div
               class="menu-title hand text-ellipsis"
               :title="item.text"
