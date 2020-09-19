@@ -11,7 +11,7 @@
     </div>
     <!-- 内容 -->
     <div class="post-container" v-if="articles">
-      <card :articles="articles"/>
+      <!-- <card :articles="articles"/> -->
     </div>
     <!-- 分页 -->
     <div class="my-10" v-if="articles.length > 0">
