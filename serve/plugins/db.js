@@ -1,6 +1,6 @@
 module.exports = (app) => {
   const mongoose = require("mongoose");
-  mongoose.connect("mongodb://root:201213WEIlai@60.205.185.94:27017/blog", {
+  mongoose.connect("mongodb://root:201213WEILAI@101.226.18.150:27017/blog", {
     useNewUrlParser: true,
     useFindAndModify: true,
     useUnifiedTopology: true,
