@@ -73,13 +73,13 @@ module.exports = (app) => {
   );
 
   // 第一次登录把注册注释取消
-  // app.post("/admin/api/register", async (req, res) => {
-  //   const user = await AdminUser.create({
-  //     username: req.body.username,
-  //     password: req.body.password
-  //   });
-  //   res.send(user)
-  // })
+  app.post("/admin/api/register", async (req, res) => {
+    const user = await AdminUser.create({
+      username: req.body.username,
+      password: req.body.password
+    });
+    res.send(user)
+  })
 
   //登录
   app.post("/admin/api/login", async (req, res) => {
